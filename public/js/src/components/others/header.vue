@@ -3,7 +3,7 @@
   <div class='header_loggedin'>
     <div class='left'>
       <router-link to='/' :exact='true' active-class='ha_active' >Home</router-link>
-      <router-link to='/explore' active-class='ha_active' >Explore</router-link>
+      <router-link to='/explore' active-class='ha_active' >News</router-link>
       <router-link to='/deactivate' active-class='ha_active' >Deactivate</router-link>
     </div>
     <div class='right'>

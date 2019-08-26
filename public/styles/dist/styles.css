@@ -4,7 +4,7 @@
 
 body {
   font-family: "Open Sans", "Roboto", Tahoma, arial, sans-serif;
-  background: #fbfbfb;
+  background: #272B30 !important;
   font-size: 13px;
   color: #3d464d;
   font-weight: normal; }
@@ -539,6 +539,7 @@ select {
     position: relative;
     right: 70px;
     top: 21px; }
+    
     .index_header .right a {
       border: 1px solid #eee;
       outline: none;
@@ -594,8 +595,138 @@ select {
   margin-bottom: 30px; }
   .display_text > span {
     font-size: 23px;
-    color: #0b867a; }
+    color: #fff; }
 
+
+@media only screen and (max-width: 600px) {
+  .cua {
+  width: 100%;
+  position: absolute;
+  top: 40% !important;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); }
+  .cua form > * {
+    display: block;
+    margin-bottom: 10px;
+    width: 100% !important;
+    height:50px !important;
+    padding: 8px 10px;
+    font-size: 14px !important; }
+  .cua input[type='submit'] {
+    width: 95%;
+    float: center;
+    align-self: center;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .cua {
+  width: 100%;
+  position: absolute;
+  top: 20% !important;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); }
+  .cua form > * {
+    display: block;
+    margin-bottom: 10px;
+    width: 95%;
+    height: 50px !important;
+    padding: 8px 10px;
+    font-size: 14px !important; 
+  }
+  .cua input[type='submit'] {
+    width: 95%;
+    float: center;
+    align-self: center;
+  }
+
+} 
+
+@media only screen and (min-width: 992px) {
+   .cua {
+  width: 60%;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); 
+}
+  .cua form > * {
+    display: block;
+    margin-bottom: 20px;
+    width: 90%;
+     height: 45px !important;
+    padding: 12px 10px;
+    font-size: 20px; 
+    font-weight: 600;
+    text-align: center;
+  }
+  .cua input[type='submit'] {
+    width: 90%;
+    float: center;
+    align-self: center;
+    font-size: 17px; 
+  }
+} 
+
+@media only screen and (min-width: 1200px) {
+  .cua {
+  width: 60%;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); 
+}
+  .cua form > * {
+    display: block;
+    margin-bottom: 20px;
+    width: 90%;
+     height: 45px !important;
+    padding: 12px 10px;
+    font-size: 20px; 
+    font-weight: 600;
+    text-align: center;
+  }
+  .cua input[type='submit'] {
+    width: 90%;
+    float: center;
+    align-self: center;
+    font-size: 17px; 
+  }
+
+}
+ .cua {
+  width: 60%;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); 
+}
+  .cua form > * {
+    display: block;
+    margin-bottom: 20px;
+    width: 90%;
+     height: 45px !important;
+    padding: 12px 10px;
+    font-size: 20px; 
+    font-weight: 600;
+    text-align: center;
+  }
+  .cua input[type='submit'] {
+    width: 90%;
+    float: center;
+    align-self: center;
+    font-size: 17px; 
+  } 
 .log_sign {
   position: absolute;
   right: 50px;
@@ -608,22 +739,7 @@ select {
 .ha_active {
   background: #f7f9fa; }
 
-.cua {
-  width: 300px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%); }
-  .cua form > * {
-    display: block;
-    margin-bottom: 10px;
-    width: 92%;
-    padding: 8px 10px;
-    font-size: 14px; }
-  .cua input[type='submit'] {
-    width: 99%; }
+
 
 .registered {
   position: absolute;

@@ -1,3 +1,4 @@
+// let PORT = 3917;
 require('dotenv').config()
 
 // Require dependencies
@@ -41,7 +42,7 @@ app.use(bodyParser.urlencoded({
 app.use(validator())
 app.use(session({
   cookieName: 'session',
-  secret: SESSION_SECRET_LETTER,
+  secret: 'fs3g5jj673g55pc8d15ebf617',
   duration: 60 * 60 * 1000,
   activeDuration: 5 * 60 * 1000
 }))
